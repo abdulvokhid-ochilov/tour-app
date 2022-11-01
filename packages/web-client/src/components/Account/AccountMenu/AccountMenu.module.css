@@ -1,0 +1,82 @@
+.user-view__menu {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(#7dd56f),
+    to(#28b487)
+  );
+  background-image: linear-gradient(to right bottom, #7dd56f, #28b487);
+  padding: 4rem 0;
+  overflow: hidden;
+  width: 25rem;
+  position: absolute;
+  height: 100vh;
+}
+
+.side-nav {
+  list-style: none;
+}
+.side-nav a {
+  margin: 1rem 0;
+  border-left: 0 solid #fff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.side-nav a:hover {
+  border-left: 4px solid #fff;
+}
+
+.side-nav--active {
+  border-left: 4px solid #fff !important;
+}
+
+.side-nav a:link,
+.side-nav a:visited {
+  min-width: 25rem;
+  padding: 1rem 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.side-nav svg {
+  min-height: 1.9rem;
+  min-width: 1.9rem;
+  max-height: 1.9rem;
+  max-width: 1.9rem;
+  fill: #f7f7f7;
+  margin-right: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .user-view__menu {
+    width: 5.5rem;
+    transition: all 0.5s ease-in-out;
+    z-index: 100;
+  }
+
+  .user-view__menu:hover {
+    width: 25rem;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .side-nav li {
+    margin: 0;
+  }
+  .side-nav a:link,
+  .side-nav a:visited {
+    padding: 1rem 2rem;
+  }
+}

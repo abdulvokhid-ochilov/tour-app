@@ -1,0 +1,14 @@
+{
+	"workspaces": [
+		"packages/*"
+	],
+	"version": "1.0.0",
+	"name": "tour-app",
+	"scripts": {
+		"dev": "lerna run dev --stream --no-bail",
+		"prod": "lerna run prod --stream --no-bail"
+	},
+	"devDependencies": {
+		"lerna": "^6.0.1"
+	}
+}

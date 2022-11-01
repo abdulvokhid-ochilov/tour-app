@@ -1,0 +1,32 @@
+.section-map {
+  position: relative;
+  height: 65rem;
+  margin-top: calc(0px - var(--section-rotate));
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.marker {
+  font-size: 3rem;
+  transform: translate(-100%, -100%);
+}
+
+.marker:hover {
+  cursor: pointer;
+  transform: scale(1.2) translate(-100%, -100%);
+  transition: ease-in-out 0.3s;
+}
+
+.mapboxgl-popup-content {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  padding: 1.5rem !important;
+  font-size: 1.4rem;
+  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.15) !important;
+}

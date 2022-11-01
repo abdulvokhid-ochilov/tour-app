@@ -1,0 +1,7 @@
+{
+	"prettier.singleQuote": true,
+	"editor.wordWrap": "on",
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"terminal.integrated.automationShell.windows": "Git Bash",
+	"liveServer.settings.port": 1024
+}
