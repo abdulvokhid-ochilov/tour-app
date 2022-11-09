@@ -63,7 +63,6 @@ const tourSchema = new mongoose.Schema(
 			lng: String,
 		},
 		stops: [Object],
-		stops: [Object],
 	},
 	{
 		toJSON: { virtuals: true },
