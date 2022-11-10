@@ -2,7 +2,7 @@
 
 Adventurous is a full stack web application with many awsome features those help users to find the most suitable tours. <br>
 
-- [live demo] [#Live Demo]
+- [live demo](#Live Demo)
 
 ### Live Demo
 
