@@ -19,11 +19,11 @@ app.use(express.urlencoded({ extended: true }));
 app.use(hpp());
 app.use(xssClean());
 app.use(ExpressMongoSanitize());
-const limiter = rateLimit({
-	windowMs: 10 * 60 * 1000,
-	max: 101,
-});
-app.use(limiter);
+// const limiter = rateLimit({
+// 	windowMs: 10 * 60 * 1000,
+// 	max: 101,
+// });
+// app.use(limiter);
 app.use('/api/v1/tours', tourRouter);
 app.use('/api/v1/users', userRouter);
 app.use('/api/v1/reviews', reviewRouter);
