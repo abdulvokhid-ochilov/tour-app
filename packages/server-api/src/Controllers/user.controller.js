@@ -28,7 +28,7 @@ export const updateProfile = catchAsyncError(async (req, res, next) => {
 	}
 	if (body.photo === 'undefined' || body.photo === 'null') {
 		body.photo =
-			'https://natours-storage.s3.ap-northeast-2.amazonaws.com/User/images/avatar.webp';
+			'https://tour-app-bucket.s3.ap-northeast-2.amazonaws.com/User/images/avatar.webp';
 	}
 	const user = await User.findByIdAndUpdate(req.user._id, body, {
 		runValidators: true,

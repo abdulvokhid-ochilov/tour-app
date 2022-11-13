@@ -19,7 +19,7 @@ const userSchema = new mongoose.Schema({
 	photo: {
 		type: String,
 		default:
-			'https://natours-storage.s3.ap-northeast-2.amazonaws.com/User/images/avatar.webp',
+			'https://tour-app-bucket.s3.ap-northeast-2.amazonaws.com/User/images/avatar.webp',
 	},
 	role: {
 		type: String,
