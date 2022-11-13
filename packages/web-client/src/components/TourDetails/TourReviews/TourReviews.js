@@ -1,6 +1,7 @@
 import styles from "./TourReviews.module.css";
 
 const TourReviews = ({ reviews }) => {
+  console.log(reviews);
   return (
     <section className={styles["section-reviews"]}>
       <div className={styles["reviews"]}>

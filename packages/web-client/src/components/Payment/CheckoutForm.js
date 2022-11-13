@@ -72,7 +72,7 @@ const CheckoutForm = ({ tour }) => {
       });
 
     if (stripeError) {
-      console.log(stripeError);
+      // console.log(stripeError);
       return toast.update(toastId, {
         render: "Could not complete payment!",
         type: "error",
