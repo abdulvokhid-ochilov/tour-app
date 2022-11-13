@@ -9,6 +9,7 @@
 		"prod": "lerna run prod --stream --no-bail"
 	},
 	"devDependencies": {
-		"lerna": "^6.0.1"
+		"lerna": "^6.0.1",
+		"nodemon": "^2.0.20"
 	}
 }
